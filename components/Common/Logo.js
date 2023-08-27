@@ -12,9 +12,9 @@ const Logo = (props) => (
     }}
     {...props}
   >
-    <g transform='translate(0.000000,100) scale(0.080000,-0.080000)'>
+    
       <img src="https://raw.githubusercontent.com/venusyew/notionic/main/public/favicon.png">
-    </g>
+   
   </svg>
 )
 
