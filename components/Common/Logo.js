@@ -3,7 +3,12 @@ import * as React from 'react'
 
 const Logo = (props) => (
  
-    <img src="https://github.com/venusyew/notionic/blob/main/public/favicon.png?raw=true"/>
+    <Image src='/favicon.png'
+                  alt='Logo'
+                  width={30}
+                  height={30}
+                  vertical-align='middle'
+                />
 )
 
 export default Logo
