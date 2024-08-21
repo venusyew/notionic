@@ -10,7 +10,7 @@ const Social = () => {
         scroll={false}
         target='_blank'
         aria-label='Telegram'
-        className='text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100'
+        className='text-neutral-400 hover:text-neutral-500 active:text-neutral-600 transition duration-100'
       >
         <svg
           className='w-5 h-5'
@@ -30,7 +30,7 @@ const Social = () => {
         scroll={false}
         target='_blank'
         aria-label='Twitter'
-        className='text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100'
+        className='text-neutral-400 hover:text-neutral-500 active:text-neutral-600 transition duration-100'
       >
         <svg
           className='w-5 h-5'
@@ -50,7 +50,7 @@ const Social = () => {
         scroll={false}
         target='_blank'
         aria-label='Github'
-        className='text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100'
+        className='text-neutral-400 hover:text-gray-500 active:text-neutral-600 transition duration-100'
       >
         <svg
           className='w-5 h-5'
