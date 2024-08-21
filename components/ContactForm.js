@@ -59,7 +59,7 @@ function Contact() {
               type='text'
               required
               placeholder={t.CONTACT.FORM_USERNAME}
-              className='block w-full bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-gray-600'
+              className='block w-full bg-slate-100 dark:bg-neutral-500 text-gray-700 dark:text-gray-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-gray-600'
             />
           </div>
           <div>
