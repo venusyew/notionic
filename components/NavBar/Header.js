@@ -101,12 +101,12 @@ const NavBar = () => {
         <button
           type='button' aria-label='Menu'
           onClick={() => setShowMenu((showMenu) => !showMenu)}
-          className='hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer rounded-lg block p-2 -mr-3 md:pb-3'
+          className='hover:bg-neutral-200 dark:hover:bg-neutral-700 cursor-pointer rounded-lg block p-2 -mr-3 md:pb-3'
         >
           <MenuIcon className='inline-block mb-1 h-5 w-5' />
         </button>
         {showMenu && (
-          <div className='absolute right-0 w-40 mr-4 mt-2 bg-white dark:bg-gray-700 divide-y divide-gray-200 dark:divide-gray-600 rounded-md shadow-lg outline-none'>
+          <div className='absolute right-0 w-40 mr-4 mt-2 bg-white dark:bg-neutral-700 divide-y divide-neutral-200 dark:divide-neutral-600 rounded-md shadow-lg outline-none'>
             <div className='py-1'>
               {links.map(
                 (link) =>
@@ -114,7 +114,7 @@ const NavBar = () => {
                     <Link passHref key={link.id} href={link.to} scroll={false}>
                       <button
                         onClick={() => setShowMenu((showMenu) => !showMenu)}
-                        className='text-left hover:bg-gray-100 dark:hover:bg-gray-600 font-light block justify-between w-full px-4 py-2 leading-5'
+                        className='text-left hover:bg-neutral-100 dark:hover:bg-neutral-600 font-light block justify-between w-full px-4 py-2 leading-5'
                       >
                         {link.icon}
                         <span className='m-1'>{link.name}</span>
@@ -175,7 +175,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className='flex items-center'>
           <Link passHref href='/' scroll={false} aria-label={BLOG.title}>
             <motion.div>
-              <Logo className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current' />
+              <Logo className='h-6 hover:text-yellow-500 dark:hover:text-yellow-500 fill-current' />
             </motion.div>
           </Link>
           {navBarTitle ? (
