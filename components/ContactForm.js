@@ -91,7 +91,7 @@ function Contact() {
                 className='cursor-not-allowed inline-block bg-gray-300 dark:bg-neutral-600 text-center rounded-lg outline-none transition duration-100 px-8 py-3'
               >
                 <svg
-                  className='animate-spin h-5 w-5 text-gray-600 dark:text-day'
+                  className='animate-spin h-5 w-5 text-gray-100 dark:text-day'
                   xmlns='http://www.w3.org/2000/svg'
                   fill='none'
                   viewBox='0 0 24 24'
@@ -114,7 +114,7 @@ function Contact() {
             ) : (
               <button
                 type='submit'
-                className='inline-block bg-gray-50 dark:bg-stone-800 hover:bg-gray-100 dark:hover:bg-stone-800 text-center rounded-lg outline-none transition duration-100 px-8 py-3'
+                className='inline-block bg-gray-50 dark:bg-stone-700 hover:bg-gray-100 dark:hover:bg-stone-800 text-center rounded-lg outline-none transition duration-100 px-8 py-3'
               >
                 <p className='text-gray-100 h-5'>{t.CONTACT.SEND_BUTTON}</p>
               </button>
