@@ -59,7 +59,7 @@ function Contact() {
               type='text'
               required
               placeholder={t.CONTACT.FORM_USERNAME}
-              className='block w-full bg-slate-100 dark:bg-neutral-500 text-gray-700 dark:text-gray-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-neutral-600'
+              className='block w-full bg-slate-200 dark:bg-neutral-500 text-gray-700 dark:text-neutral-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-neutral-600'
             />
           </div>
           <div>
@@ -69,7 +69,7 @@ function Contact() {
               type='text'
               required
               placeholder={t.CONTACT.FORM_EMAIL}
-              className='block w-full bg-slate-100 dark:bg-neutral-500 text-gray-700 dark:text-gray-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-neutral-600'
+              className='block w-full bg-slate-200 dark:bg-neutral-500 text-gray-700 dark:text-neutral-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-neutral-600'
             />
           </div>
 
@@ -80,7 +80,7 @@ function Contact() {
               type='text'
               required
               placeholder={t.CONTACT.FORM_CONTENT}
-              className='h-64 block w-full bg-slate-100 dark:bg-neutral-500 text-gray-700 dark:text-gray-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-neutral-600'
+              className='h-64 block w-full bg-slate-200 dark:bg-neutral-500 text-gray-700 dark:text-neutral-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-neutral-600'
             ></textarea>
           </div>
 
@@ -88,7 +88,7 @@ function Contact() {
             {submitting ? (
               <button
                 disabled
-                className='cursor-not-allowed inline-block bg-gray-300 dark:bg-neutral-600 text-center rounded-lg outline-none transition duration-100 px-8 py-3'
+                className='cursor-not-allowed inline-block bg-neutral-300 dark:bg-neutral-600 text-center rounded-lg outline-none transition duration-100 px-8 py-3'
               >
                 <svg
                   className='animate-spin h-5 w-5 text-gray-100 dark:text-day'
@@ -114,7 +114,7 @@ function Contact() {
             ) : (
               <button
                 type='submit'
-                className='inline-block bg-gray-50 dark:bg-stone-700 hover:bg-gray-100 dark:hover:bg-stone-800 text-center rounded-lg outline-none transition duration-100 px-8 py-3'
+                className='inline-block bg-gray-50 dark:bg-stone-700 hover:bg-gray-100 dark:hover:bg-stone-600 text-center rounded-lg outline-none transition duration-100 px-8 py-3'
               >
                 <p className='text-gray-100 h-5'>{t.CONTACT.SEND_BUTTON}</p>
               </button>
