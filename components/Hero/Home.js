@@ -39,7 +39,7 @@ const Hero = ({ blockMap }) => {
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4 mt-6'>
             <Link passHref href='/contact' scroll={false}>
               <button className='w-full bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600 inline-flex py-3 px-5 rounded-lg items-center'>
-                <MailIcon className='inline-block text-yellow-600 dark:text-day h-7 w-7 mt-1' />
+                <MailIcon className='inline-block text-neutral-600 dark:text-day h-7 w-7 mt-1' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
                   <span className='text-xs text-neutral-600 dark:text-day mb-1'>
                     {t.HERO.HOME.CONTACT_BUTTON_DES}
@@ -55,7 +55,7 @@ const Hero = ({ blockMap }) => {
               >
                 <ClipboardCheckIcon className='inline-block text-neutral-600 dark:text-day h-7 w-7' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
-                  <span className='text-xs text-yellow-600 dark:text-day mb-1'>
+                  <span className='text-xs text-neutral-600 dark:text-day mb-1'>
                     {t.HERO.RSS_BUTTON_DES_COPIED}
                   </span>
                   <span className='font-medium'>
