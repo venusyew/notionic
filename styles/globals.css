@@ -98,9 +98,9 @@ nav {
 }
 
 .md-cover {
-  @apply bg-gradient-to-r from-neutral-100 to-gray-100 group-hover:from-neutral-200 group-hover:via-neutral-200 dark:from-neutral-700 dark:to-neutral-700 dark:group-hover:from-neutral-600 dark:group-hover:via-neutral-600 group-hover:to-transparent;
+  @apply bg-gradient-to-r from-stone-100 to-stone-100 group-hover:from-stone-200 group-hover:via-stone-200 dark:from-stone-700 dark:to-stone-700 dark:group-hover:from-stone-600 dark:group-hover:via-stone-600 group-hover:to-transparent;
 }
 
 .sm-cover {
-  @apply bg-gradient-to-r from-neutral-100 via-gray-100 group-hover:from-neutral-200 group-hover:via-neutral-200 dark:from-neutral-700 dark:via-neutral-700 dark:group-hover:from-neutral-600 dark:group-hover:via-neutral-600 to-transparent;
+  @apply bg-gradient-to-r from-stone-100 via-stone-100 group-hover:from-stone-200 group-hover:via-stone-200 dark:from-stone-700 dark:via-stone-700 dark:group-hover:from-stone-600 dark:group-hover:via-stone-600 to-transparent;
 }
