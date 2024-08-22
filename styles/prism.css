@@ -28,7 +28,7 @@ html:not(.dark) {
 html.dark {
   --prism-scheme: dark;
   --prism-foreground: #d4d4d4;
-  --prism-background: #2e2724;
+  --prism-background: #4e4946;
 
   --prism-namespace: #aaaaaa;
   --prism-comment: #758575;
