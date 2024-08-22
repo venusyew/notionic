@@ -38,7 +38,7 @@ const Hero = ({ blockMap }) => {
           <Social />
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4 mt-6'>
             <Link passHref href='/contact' scroll={false}>
-              <button className='w-full bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600 inline-flex py-3 px-5 rounded-lg items-center'>
+              <button className='w-full bg-neutral-100 dark:bg-stone-700 hover:bg-stone-200 dark:hover:bg-stone-600 inline-flex py-3 px-5 rounded-lg items-center'>
                 <MailIcon className='inline-block text-neutral-600 dark:text-day h-7 w-7 mt-1' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
                   <span className='text-xs text-neutral-600 dark:text-day mb-1'>
@@ -51,7 +51,7 @@ const Hero = ({ blockMap }) => {
           {showCopied ? (
               <button
                 disabled
-                className='bg-neutral-200 dark:bg-neutral-600 inline-flex py-3 px-5 rounded-lg items-center'
+                className='bg-stone-200 dark:bg-stone-600 inline-flex py-3 px-5 rounded-lg items-center'
               >
                 <ClipboardCheckIcon className='inline-block text-neutral-600 dark:text-day h-7 w-7' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
@@ -66,7 +66,7 @@ const Hero = ({ blockMap }) => {
             ) : (
               <button
                 onClick={() => clickCopy()}
-                className='bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600 inline-flex py-3 px-5 rounded-lg items-center'
+                className='bg-neutral-100 dark:bg-stone-700 hover:bg-stone-200 dark:hover:bg-stone-600 inline-flex py-3 px-5 rounded-lg items-center'
               >
                 <RssIcon className='inline-block text-neutral-600 dark:text-day h-7 w-7' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
