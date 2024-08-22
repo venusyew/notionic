@@ -31,13 +31,13 @@ const NewsletterHero = ({ blockMap }) => {
             subPageTitle={null}
           />
           <Social />
-          <h2 className='text-xl pt-8 pb-4 font-light text-gray-500 dark:text-day'>
+          <h2 className='text-xl pt-8 pb-4 font-light text-neutral-500 dark:text-day'>
             {t.HERO.NEWSLETTER.SUBSCRIPTION_HEAD}
           </h2>
 
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4'>
             <Link passHref href={BLOG.telegramChannelUrl} scroll={false} className='flex'>
-              <button className='w-full bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600 inline-flex py-3 px-5 rounded-lg items-center'>
+              <button className='w-full bg-neutral-100 dark:bg-stone-700 hover:bg-stone-200 dark:hover:bg-stone-600 inline-flex py-3 px-5 rounded-lg items-center'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   fill='currentColor'
@@ -71,7 +71,7 @@ const NewsletterHero = ({ blockMap }) => {
             ) : (
               <button
                 onClick={() => clickCopy()}
-                className='bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600 inline-flex py-3 px-5 rounded-lg items-center'
+                className='bg-stone-100 dark:bg-stone-700 hover:bg-stone-200 dark:hover:bg-stone-600 inline-flex py-3 px-5 rounded-lg items-center'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
