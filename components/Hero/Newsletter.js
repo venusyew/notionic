@@ -37,7 +37,7 @@ const NewsletterHero = ({ blockMap }) => {
 
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4'>
             <Link passHref href={BLOG.telegramChannelUrl} scroll={false} className='flex'>
-              <button className='w-full bg-neutral-100 dark:bg-stone-700 hover:bg-stone-200 dark:hover:bg-stone-600 inline-flex py-3 px-5 rounded-lg items-center'>
+              <button className='w-full bg-stone-100 dark:bg-stone-700 hover:bg-stone-200 dark:hover:bg-stone-600 inline-flex py-3 px-5 rounded-lg items-center'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   fill='currentColor'
@@ -58,7 +58,7 @@ const NewsletterHero = ({ blockMap }) => {
             {showCopied ? (
               <button
                 disabled
-                className='bg-neutral-200 dark:bg-neutral-600 inline-flex py-3 px-5 rounded-lg items-center'
+                className='bg-stone-200 dark:bg-stone-600 inline-flex py-3 px-5 rounded-lg items-center'
               >
                 <ClipboardCheckIcon className='inline-block text-neutral-600 dark:text-day h-7 w-7' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
