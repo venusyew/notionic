@@ -70,7 +70,7 @@ const Hero = ({ blockMap }) => {
               >
                 <RssIcon className='inline-block text-neutral-600 dark:text-day h-7 w-7' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
-                  <span className='text-xs text-yellow-600 dark:text-day mb-1'>
+                  <span className='text-xs text-neutral-600 dark:text-day mb-1'>
                     {t.HERO.RSS_BUTTON_DES}
                   </span>
                   <span className='font-medium'>{t.HERO.HOME.RSS_BUTTON}</span>
@@ -80,7 +80,7 @@ const Hero = ({ blockMap }) => {
           </div>
         </div>
         <div className='w-2/5'>
-          <Avatar className='text-yellow-600 dark:text-yellow-300' />
+          <Avatar className='text-neutral-600 dark:text-neutral-300' />
         </div>
       </div>
     </>
