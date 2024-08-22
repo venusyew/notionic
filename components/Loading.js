@@ -26,7 +26,7 @@ export default function Loading({ notionSlug }) {
               width='24'
               height='24'
               viewBox='0 0 100 100'
-              className='h-6 hover:text-blue-500 fill-current dark:text-white'
+              className='h-6 hover:text-yellow-500 fill-current dark:text-white'
             >
               <g transform='translate(0.000000,100) scale(0.080000,-0.080000)'>
                 <path d='M762 1203 c-6 -15 -13 -46 -17 -68 -4 -22 -13 -49 -20 -61 -15 -23 -122 -69 -257 -109 -49 -14 -88 -28 -88 -29 0 -2 33 -20 73 -40 49 -24 87 -36 115 -36 28 0 42 -4 42 -13 0 -34 -295 -517 -390 -639 -40 -52 -4 -28 86 56 49 46 105 109 124 141 19 31 64 98 100 148 77 108 125 186 173 283 20 39 46 78 59 86 13 8 69 34 126 58 107 45 118 57 110 111 -3 21 -10 25 -78 34 l-75 10 -5 45 c-5 42 -7 45 -36 48 -26 3 -33 -1 -42 -25z' />
@@ -36,7 +36,7 @@ export default function Loading({ notionSlug }) {
           </div>
 
           <p className='inline-flex items-center text-sm md:text-base font-semibold uppercase mb-4'>
-            <svg className='animate-spin -ml-1 mr-3 h-5 w-5 text-gray-400' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'>
+            <svg className='animate-spin -ml-1 mr-3 h-5 w-5 text-neutral-400' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'>
               <circle className='opacity-25' cx='12' cy='12' r='10' stroke='currentColor' strokeWidth='4'></circle>
               <path className='opacity-75' fill='currentColor' d='M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z'></path>
             </svg>
@@ -46,7 +46,7 @@ export default function Loading({ notionSlug }) {
             <Link
               passHref
               href={`https://${BLOG.notionDomain}/${notionSlug}`} scroll={false}
-              className='text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300 transition duration-100'
+              className='text-neutral-500 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300 transition duration-100'
             >
               <ExternalLinkIcon className='inline-block mb-1 h-5 w-5' />
               <span className='m-1'>{t.ERROR.TIMEOUT_TEXT}</span>
