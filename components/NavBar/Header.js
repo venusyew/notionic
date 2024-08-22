@@ -9,7 +9,8 @@ import {
   CollectionIcon,
   SparklesIcon,
   SearchIcon,
-  MenuIcon
+  MenuIcon,
+  FolderOpenIcon
 } from '@heroicons/react/outline'
 import Social from '../Common/Social.js'
 import ThemeSwitcher from './ThemeSwitcher.js'
@@ -56,7 +57,7 @@ const NavBar = () => {
       id: 3,
       name: t.NAV.PROJECTS,
       to: '/projects',
-      icon: <SparklesIcon className='inline-block mb-1 h-5 w-5' />,
+      icon: <FolderOpenIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.projects
     },
     {
