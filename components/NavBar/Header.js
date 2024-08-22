@@ -10,7 +10,8 @@ import {
   SparklesIcon,
   SearchIcon,
   MenuIcon,
-  FolderOpenIcon
+  FolderOpenIcon,
+  BookOpenIcon
 } from '@heroicons/react/outline'
 import Social from '../Common/Social.js'
 import ThemeSwitcher from './ThemeSwitcher.js'
@@ -43,7 +44,7 @@ const NavBar = () => {
       id: 1,
       name: t.NAV.NEWSLETTER,
       to: '/newsletter',
-      icon: <NewspaperIcon className='inline-block mb-1 h-5 w-5' />,
+      icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.newsletter
     },
     {
