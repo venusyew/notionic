@@ -18,12 +18,12 @@ const NoteHero = ({ blockMap }) => {
             subPageTitle={null}
           />
           <Social />
-          <div className='text-gray-400 text-xs font-light py-4'>
+          <div className='text-neutral-400 text-xs font-light py-4'>
             {t.HERO.NOTES.TEXT_FOOTER}
           </div>
         </div>
         <div className='w-2/5'>
-          <Avatar className='text-gray-600 dark:text-gray-300' />
+          <Avatar className='text-neutral-600 dark:text-neutral-300' />
         </div>
       </div>
     </>
